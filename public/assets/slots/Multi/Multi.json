@@ -1,0 +1,932 @@
+{
+    "skeleton": {
+        "hash": "dMDF1iY4mu8",
+        "spine": "4.1.24",
+        "x": -1842.78,
+        "y": -1857.55,
+        "width": 3691,
+        "height": 3722.73,
+        "images": "../images/",
+        "audio": "D:/Design/Lime/Spine/Fruit/Animatiom/Spine"
+    },
+    "bones": [
+        {
+            "name": "root",
+            "y": -1113.43
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": -27.35,
+            "y": 1368.99
+        }
+    ],
+    "slots": [
+        {
+            "name": "mask",
+            "bone": "root",
+            "attachment": "mask"
+        },
+        {
+            "name": "MSK_Multi_Light_0",
+            "bone": "root",
+            "attachment": "MSK_Multi_Light_0"
+        },
+        {
+            "name": "MSK_Multi_Light_00",
+            "bone": "root",
+            "attachment": "MSK_Multi_Light_00"
+        },
+        {
+            "name": "MSK_Multi_Light_000",
+            "bone": "root",
+            "attachment": "MSK_Multi_Light_000"
+        },
+        {
+            "name": "MSK_Multi",
+            "bone": "root",
+            "attachment": "MSK_Multi"
+        },
+        {
+            "name": "MSK_Multi_Light_1",
+            "bone": "root",
+            "attachment": "MSK_Multi_Light_1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "mask": {
+                    "mask": {
+                        "type": "clipping",
+                        "end": "mask",
+                        "vertexCount": 4,
+                        "vertices": [
+                            1,
+                            1,
+                            -2787.27,
+                            -3023.35,
+                            1,
+                            1,
+                            1,
+                            2753.9,
+                            -2986.9,
+                            1,
+                            1,
+                            1,
+                            2741.75,
+                            3514.25,
+                            1,
+                            1,
+                            1,
+                            -2799.42,
+                            3538.55,
+                            1
+                        ],
+                        "color": "ce3a3aff"
+                    }
+                },
+                "MSK_Multi": {
+                    "MSK_Multi": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            1,
+                            1,
+                            1166.98,
+                            -1245.88,
+                            1,
+                            1,
+                            1,
+                            -1170.31,
+                            -1245.88,
+                            1,
+                            1,
+                            1,
+                            -1170.31,
+                            879.88,
+                            1,
+                            1,
+                            1,
+                            1166.98,
+                            879.88,
+                            1
+                        ],
+                        "hull": 4,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            0,
+                            6
+                        ],
+                        "width": 221,
+                        "height": 201
+                    }
+                },
+                "MSK_Multi_Light_0": {
+                    "MSK_Multi_Light_0": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            1,
+                            1,
+                            1600.59,
+                            -1658.35,
+                            1,
+                            1,
+                            1,
+                            -1572.19,
+                            -1658.35,
+                            1,
+                            1,
+                            1,
+                            -1572.19,
+                            1345.22,
+                            1,
+                            1,
+                            1,
+                            1600.59,
+                            1345.22,
+                            1
+                        ],
+                        "hull": 4,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            0,
+                            6
+                        ],
+                        "width": 300,
+                        "height": 284
+                    }
+                },
+                "MSK_Multi_Light_00": {
+                    "MSK_Multi_Light_00": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            1,
+                            1,
+                            1812.11,
+                            -1943.9,
+                            1,
+                            1,
+                            1,
+                            -1815.44,
+                            -1943.9,
+                            1,
+                            1,
+                            1,
+                            -1815.44,
+                            1472.13,
+                            1,
+                            1,
+                            1,
+                            1812.11,
+                            1472.13,
+                            1
+                        ],
+                        "hull": 4,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            0,
+                            6
+                        ],
+                        "width": 343,
+                        "height": 323
+                    }
+                },
+                "MSK_Multi_Light_000": {
+                    "MSK_Multi_Light_000": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            1,
+                            1,
+                            1875.56,
+                            -2113.11,
+                            1,
+                            1,
+                            1,
+                            -1773.13,
+                            -2113.11,
+                            1,
+                            1,
+                            1,
+                            -1773.14,
+                            1609.62,
+                            1,
+                            1,
+                            1,
+                            1875.56,
+                            1609.62,
+                            1
+                        ],
+                        "hull": 4,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            0,
+                            6
+                        ],
+                        "width": 345,
+                        "height": 352
+                    }
+                },
+                "MSK_Multi_Light_1": {
+                    "MSK_Multi_Light_1": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            1,
+                            1,
+                            1156.4,
+                            -1256.46,
+                            1,
+                            1,
+                            1,
+                            -1180.88,
+                            -1256.46,
+                            1,
+                            1,
+                            1,
+                            -1180.88,
+                            964.49,
+                            1,
+                            1,
+                            1,
+                            1156.4,
+                            964.49,
+                            1
+                        ],
+                        "hull": 4,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            0,
+                            6
+                        ],
+                        "width": 221,
+                        "height": 210
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "Jump": {
+            "slots": {
+                "MSK_Multi_Light_0": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "MSK_Multi_Light_00": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "MSK_Multi_Light_000": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "MSK_Multi_Light_1": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bone": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.017,
+                                0,
+                                0.15,
+                                0,
+                                0.017,
+                                0,
+                                0.15,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.1667,
+                            "curve": [
+                                0.222,
+                                0,
+                                0.278,
+                                0,
+                                0.222,
+                                0,
+                                0.278,
+                                -52.32
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "y": -52.32,
+                            "curve": [
+                                0.389,
+                                0,
+                                0.444,
+                                0,
+                                0.389,
+                                -52.32,
+                                0.444,
+                                757
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "y": 757,
+                            "curve": [
+                                0.556,
+                                0,
+                                0.611,
+                                0,
+                                0.556,
+                                757,
+                                0.611,
+                                -165.86
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "y": -165.86,
+                            "curve": [
+                                0.722,
+                                0,
+                                0.817,
+                                0,
+                                0.722,
+                                -165.86,
+                                0.817,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.8333
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0.1667,
+                            "curve": [
+                                0.222,
+                                1,
+                                0.278,
+                                1,
+                                0.222,
+                                1,
+                                0.278,
+                                0.89
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "y": 0.89,
+                            "curve": [
+                                0.389,
+                                1,
+                                0.444,
+                                1,
+                                0.389,
+                                0.89,
+                                0.444,
+                                1.165
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "y": 1.165,
+                            "curve": [
+                                0.556,
+                                1,
+                                0.611,
+                                1,
+                                0.556,
+                                1.165,
+                                0.611,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6667
+                        }
+                    ]
+                }
+            }
+        },
+        "Light": {
+            "slots": {
+                "MSK_Multi_Light_0": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.2333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "MSK_Multi_Light_00": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.0667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.2,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "MSK_Multi_Light_000": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.2,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "MSK_Multi_Light_1": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.2333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bone": {
+                    "scale": [
+                        {},
+                        {
+                            "time": 0.2333,
+                            "x": 1.11,
+                            "y": 1.11
+                        },
+                        {
+                            "time": 0.5
+                        }
+                    ]
+                }
+            }
+        },
+        "Start multiplayer game": {
+            "slots": {
+                "MSK_Multi_Light_0": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.5,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.7333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.1667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "MSK_Multi_Light_00": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.5,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.5667,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.7,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.7667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.8333,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.9,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.9667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "MSK_Multi_Light_000": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.6333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.7,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.7667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.8333,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.9,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.9667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.1,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "MSK_Multi_Light_1": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.5,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1.7333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2.1667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bone": {
+                    "translate": [
+                        {
+                            "curve": [
+                                0.017,
+                                0,
+                                0.15,
+                                0,
+                                0.017,
+                                0,
+                                0.15,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 0.1667,
+                            "curve": [
+                                0.222,
+                                0,
+                                0.278,
+                                0,
+                                0.222,
+                                0,
+                                0.278,
+                                -52.32
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "y": -52.32,
+                            "curve": [
+                                0.422,
+                                0,
+                                0.511,
+                                0,
+                                0.422,
+                                -52.32,
+                                0.511,
+                                757
+                            ]
+                        },
+                        {
+                            "time": 0.6,
+                            "y": 757,
+                            "curve": [
+                                0.678,
+                                0,
+                                0.756,
+                                0,
+                                0.678,
+                                757,
+                                0.756,
+                                -165.86
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "y": -165.86,
+                            "curve": [
+                                0.889,
+                                0,
+                                0.944,
+                                0,
+                                0.889,
+                                -165.86,
+                                0.944,
+                                -55.29
+                            ]
+                        },
+                        {
+                            "time": 1
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0.1667,
+                            "curve": [
+                                0.222,
+                                1,
+                                0.278,
+                                1,
+                                0.222,
+                                1,
+                                0.278,
+                                0.89
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "y": 0.89,
+                            "curve": [
+                                0.389,
+                                1,
+                                0.444,
+                                1,
+                                0.389,
+                                0.89,
+                                0.444,
+                                1.165
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "y": 1.165,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "y": 1.165,
+                            "curve": [
+                                0.729,
+                                1,
+                                0.771,
+                                1,
+                                0.729,
+                                1.165,
+                                0.771,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1.5333
+                        },
+                        {
+                            "time": 1.7667,
+                            "x": 1.11,
+                            "y": 1.11
+                        },
+                        {
+                            "time": 2.0333,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 2.2
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

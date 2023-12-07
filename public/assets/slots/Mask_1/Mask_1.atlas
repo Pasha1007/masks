@@ -1,0 +1,11 @@
+Mask_1.png
+size:712,240
+filter:Linear,Linear
+pma:true
+Mask_1
+bounds:2,13,224,258
+rotate:90
+Mask_1_2
+bounds:500,3,209,234
+Mask_1_Light
+bounds:262,2,236,235

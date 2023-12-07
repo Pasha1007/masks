@@ -1,0 +1,383 @@
+{
+    "skeleton": {
+        "hash": "bBZqJhBa/AA",
+        "spine": "4.1.24",
+        "x": -1603.97,
+        "y": -1552.94,
+        "width": 3207.15,
+        "height": 3110.69,
+        "images": "../images/",
+        "audio": "D:/Design/Lime/Spine/Fruit/Animatiom/Spine"
+    },
+    "bones": [
+        {
+            "name": "root",
+            "y": -1932
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": -3.19,
+            "y": 941.95
+        },
+        {
+            "name": "L",
+            "parent": "bone",
+            "x": 0.07,
+            "y": 129.05
+        }
+    ],
+    "slots": [
+        {
+            "name": "mask",
+            "bone": "root",
+            "attachment": "mask"
+        },
+        {
+            "name": "Mask_4_Light",
+            "bone": "root",
+            "attachment": "Mask_4_Light"
+        },
+        {
+            "name": "Mask_4",
+            "bone": "root",
+            "attachment": "Mask_4"
+        },
+        {
+            "name": "Mask_4_2",
+            "bone": "root",
+            "attachment": "Mask_4_2"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "mask": {
+                    "mask": {
+                        "type": "clipping",
+                        "end": "mask",
+                        "vertexCount": 4,
+                        "vertices": [
+                            1,
+                            1,
+                            -3242,
+                            -1645.02,
+                            1,
+                            1,
+                            1,
+                            3239.34,
+                            -1673.9,
+                            1,
+                            1,
+                            1,
+                            3167.17,
+                            5023.97,
+                            1,
+                            1,
+                            1,
+                            -3083.21,
+                            5009.54,
+                            1
+                        ],
+                        "color": "ce3a3aff"
+                    }
+                },
+                "Mask_4": {
+                    "Mask_4": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            1,
+                            1,
+                            1606.36,
+                            -562.89,
+                            1,
+                            1,
+                            1,
+                            -1600.79,
+                            -562.89,
+                            1,
+                            1,
+                            1,
+                            -1600.79,
+                            2547.8,
+                            1,
+                            1,
+                            1,
+                            1606.36,
+                            2547.8,
+                            1
+                        ],
+                        "hull": 4,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            0,
+                            6
+                        ],
+                        "width": 266,
+                        "height": 258
+                    }
+                },
+                "Mask_4_2": {
+                    "Mask_4_2": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            1,
+                            2,
+                            1425.44,
+                            -595.49,
+                            1,
+                            1,
+                            2,
+                            -1420,
+                            -595.49,
+                            1,
+                            1,
+                            2,
+                            -1420,
+                            2274.07,
+                            1,
+                            1,
+                            2,
+                            1425.44,
+                            2274.07,
+                            1
+                        ],
+                        "hull": 4,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            0,
+                            6
+                        ],
+                        "width": 236,
+                        "height": 238
+                    }
+                },
+                "Mask_4_Light": {
+                    "Mask_4_Light": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            1,
+                            2,
+                            1485.72,
+                            -691.94,
+                            1,
+                            1,
+                            2,
+                            -1359.71,
+                            -691.94,
+                            1,
+                            1,
+                            2,
+                            -1359.71,
+                            2141.44,
+                            1,
+                            1,
+                            2,
+                            1485.72,
+                            2141.44,
+                            1
+                        ],
+                        "hull": 4,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            0,
+                            6
+                        ],
+                        "width": 236,
+                        "height": 235
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "Boom": {
+            "slots": {
+                "Mask_4": {
+                    "rgba": [
+                        {
+                            "time": 0.4333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "Mask_4_2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff94"
+                        }
+                    ]
+                },
+                "Mask_4_Light": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bone": {
+                    "scale": [
+                        {},
+                        {
+                            "time": 0.4333,
+                            "x": 0.626,
+                            "y": 0.626
+                        },
+                        {
+                            "time": 0.6667
+                        }
+                    ]
+                },
+                "L": {
+                    "scale": [
+                        {
+                            "time": 0.4333
+                        },
+                        {
+                            "time": 0.6667,
+                            "x": 1.683,
+                            "y": 1.683
+                        }
+                    ]
+                }
+            }
+        },
+        "Jump": {
+            "slots": {
+                "Mask_4_2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "Mask_4_Light": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bone": {
+                    "scale": [
+                        {},
+                        {
+                            "time": 0.3333,
+                            "y": 1.24
+                        },
+                        {
+                            "time": 0.5,
+                            "y": 0.969
+                        },
+                        {
+                            "time": 0.5333
+                        },
+                        {
+                            "time": 0.6,
+                            "y": 0.969
+                        },
+                        {
+                            "time": 0.6667
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
